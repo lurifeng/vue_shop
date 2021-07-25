@@ -33,7 +33,7 @@ Vue.prototype.$http = axios
 Vue.config.productionTip = false
 
 Vue.component('tree-table', Treetable)
-// 将富文本编辑器，注册为全局可用的组件
+// 将富文本编辑器，注册为全局组件
 Vue.use(VueQuillEditor)
 
 Vue.filter('dateFormat', function(originVal) {
